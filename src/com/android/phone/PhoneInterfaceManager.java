@@ -2880,4 +2880,8 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
     public ModemActivityInfo getModemActivityInfo() {
         return (ModemActivityInfo) sendRequest(CMD_GET_MODEM_ACTIVITY_INFO, null);
     }
+
+    public int getLteOnGsmMode() {
+        return mPhone.getLteOnGsmMode();
+    }
 }
