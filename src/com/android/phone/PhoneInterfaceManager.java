@@ -2920,6 +2920,10 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
         return mPhone.isImsRegistered();
     }
 
+    public int getLteOnGsmMode() {
+        return mPhone.getLteOnGsmMode();
+    }
+
     @Override
     public int getSubIdForPhoneAccount(PhoneAccount phoneAccount) {
         return PhoneUtils.getSubIdForPhoneAccount(phoneAccount);
