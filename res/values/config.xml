@@ -148,4 +148,7 @@
     <!-- carrier settings menu -->
     <string name="carrier_settings" translatable="false"></string>
     <string name="carrier_settings_menu" translatable="false"></string>
+
+    <!-- Use TD-SDCMA 3G/4G technologies on this device -->
+    <bool name="config_enabled_tdscdma" translatable="false">false</bool>
 </resources>
