@@ -1742,7 +1742,7 @@ public class CallFeaturesSetting extends PreferenceActivity
             Intent intent = selectSub.getIntent();
             intent.putExtra(SelectSubscription.PACKAGE, "com.android.phone");
             intent.putExtra(SelectSubscription.TARGET_CLASS,
-                    "com.android.phone.MSimCallFeaturesSubSetting");
+                    "com.android.phone.msim.MSimCallFeaturesSubSetting");
         }
 
         if (isMsim && TelephonyManager.getDefault().getMultiSimConfiguration() !=
