@@ -383,7 +383,7 @@ public class TelephonyConnectionService extends ConnectionService {
         int phoneType = phone.getPhoneType();
         int phoneId = phone.getPhoneId();
         if (phoneType == TelephonyManager.PHONE_TYPE_GSM) {
-            GsmConnection connection = new GsmConnection(originalConnection, isForwarded);
+            GsmConnection connection = new GsmConnection(originalConnection);
             mGsmConferenceController[phoneId].add(connection);
             return connection;
         } else if (phoneType == TelephonyManager.PHONE_TYPE_CDMA) {
