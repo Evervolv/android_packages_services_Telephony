@@ -51,6 +51,8 @@ android_app {
         "s2-geometry-library-java",
     ],
 
+    defaults: ["SettingsLibDefaults"],
+
     srcs: [
         ":framework-telephony-common-shared-srcs",
         "src/**/*.java",
